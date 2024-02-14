@@ -1,0 +1,330 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: white;
+    /* overflow-x: hidden; */
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: Bebas neue;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 3px 3px  rgb(238, 213, 165);
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    width: 90px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 12px;
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    margin-right: 8px;
+}
+.nike{
+    width: 110px;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 8px;   
+    font-family: Roboto;
+
+}
+.ankers{
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 600px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,.55);
+}
+.sec1{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.sec2{
+    width: 500px;
+    height: 480px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;   
+}
+#id1{
+    border-radius: 50%;
+    background-image: url(../images/pic3.png);
+    background-size: contain;   
+}
+#id3{
+    color: #ff8367;
+    font-family: bebas neue;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+#id4{
+    color: #363958;
+    letter-spacing: 3px;
+    font-family: bebas neue;
+    font-size: 75px;
+}
+#id5{
+    font-family: Roboto;
+    color: rgba(0,0,0,.55);
+}
+#id6{
+    border: 0;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(61, 79, 243)
+}
+.sec3{
+    width: 100%;
+    height: 2100px;
+}
+.sec4{
+    width: 100%;
+    height: 70px;
+    font-family: Bebas neue;
+    color: #363958;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.sec5{
+    width: 100%;
+    height: 570px;
+    display: flex;
+}
+.sec6{
+    width: 400px;
+    height: 540px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: -2px 2px 5px 2px #4b5053;;
+}
+.sec7{
+    width: 400px;
+    height: 270px;
+    display: flex;
+}
+.sec8{
+    width: 400px;
+    height: 270px;
+    background: #F1F1F1;
+}
+.sec9{
+    width: 300px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 65px;
+}
+#id7{
+    background-image: url(../images/pic4.png);
+    background-size: cover;
+}
+#id8{
+    background-image: url(../images/pic5.png);
+    background-size: cover;
+}
+#id9{
+    background-image: url(../images/pic6.png);
+    background-size: cover;
+}
+
+.sec4{
+    width: 100%;
+    height: 70px;
+    font-family: Bebas neue;
+    color: #363958;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.sec5{
+    width: 100%;
+    height: 570px;
+    display: flex;
+}
+.sec6{
+    width: 400px;
+    height: 540px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: -2px 2px 5px 2px #4b5053;;
+}
+.sec7{
+    width: 400px;
+    height: 270px;
+    display: flex;
+}
+.sec8{
+    width: 400px;
+    height: 270px;
+    background: #F1F1F1;
+}
+.sec9{
+    width: 300px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 65px;
+}
+#id10{
+    background-image: url(../images/pic7.png);
+    background-size: cover;
+}
+#id11{
+    background-image: url(../images/pic8.png);
+    background-size: cover;
+}
+#id12{
+    background-image: url(../images/pic9.png);
+    background-size: cover;
+}
+.sec11{
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+.sec12{
+    width: 710px;
+    height: 420px;
+    margin: 20px;
+    display: block;
+}
+.sec13{
+    width: 690px;
+    height: 110px;
+    margin-top: 16px;
+    background-color: white;
+    margin: 15px;
+    padding: 2px;
+    box-shadow: -2px 2px 5px 2px #4b5053;;
+}
+#id13{
+    width: 710px;
+    height: 380px;
+    background-image: url(../images/pic14.png);
+    background-size: cover;
+}
+.sec14{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.sec15{
+    width: 400px;
+    height: 100px;
+    display: inline-block;   
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+#id14{
+    background-image: url(../images/pic10.png);
+    background-size: cover;
+}
+#id15{
+    background-image: url(../images/pic11.png);
+    background-size: cover;
+}
+#id16{
+    background-image: url(../images/pic12.png);
+    background-size: cover;
+}
+.sec16{
+    width: 100%;
+    height: 90px;
+}
+h1{
+    font-family: Roboto;
+    color: #363958;
+
+}
+.sec17{
+    width: 100%;
+    height: 150px;
+}
+input{
+    margin-left: 130px;
+    padding: 13px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 20px;
+}
+button{
+    border: 0;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(61, 79, 243)
+}
+.sec18{
+    width: 90%;
+    height: 250px;
+    margin-left: 70px;
+    box-shadow: -2px 2px 5px 2px #4b5053;;
+}
+.sec19{
+    width: 100%;
+    height: 210px;
+    display: flex;
+}
+.sec20{
+    width: 200px;
+    height: 190px;
+    display: inline-block;
+    margin: auto;
+}
+h2{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #363958;
+    text-align: left;
+    font-size: 24px;
+}
+ul{
+    color: #212529;
+    text-align: left;
+    font-family: Roboto;
+    list-style-type: none;
+}
